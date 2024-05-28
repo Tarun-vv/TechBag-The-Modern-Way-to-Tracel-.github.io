@@ -1,0 +1,62 @@
+.up-btn {
+  padding: 2rem;
+  font-size: 2rem;
+  border-radius: 50%;
+  background-color: #ecf2f4;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+
+  position: absolute;
+  right: 2rem;
+  bottom: -7rem;
+}
+
+.supply-hero {
+  column-gap: 4.8rem;
+}
+
+.section-supply-intro {
+  padding: 9.6rem 0;
+}
+
+.supply-heading {
+  font-size: 3rem;
+  font-weight: 700;
+  /* text-transform: uppercase; */
+  letter-spacing: 0.2rem;
+  color: #40798c;
+  margin-bottom: 5.6rem;
+}
+
+.supply-intro-img {
+  width: 100%;
+  border: 5px solid #40798c;
+}
+
+.supply-img {
+  width: 70%;
+  border: 8px solid #40798c;
+}
+/* /////////////////////////////////////////////////////////// */
+
+.section-bag {
+  padding: 4.8rem 0;
+}
+
+.section-product {
+  padding: 4.8rem 0;
+}
+
+.supply-product-img {
+  width: 80%;
+  border: 8px solid #40798c;
+}
+
+/* Our mission is to
+        revolutionize the way people carry and interact with technology on the go. Join us in creating a smarter, safer,
+        and more sustainable future with our cutting-edge tech bag. */
+
+.partnership-container:hover {
+  transform: translateX(-1.8rem);
+}

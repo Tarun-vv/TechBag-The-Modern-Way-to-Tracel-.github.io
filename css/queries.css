@@ -1,0 +1,341 @@
+@media (max-width: 84em) {
+  .hero {
+    max-width: 120rem;
+  }
+
+  .heading-primary {
+    font-size: 4.4rem;
+  }
+}
+
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .heading-secondary {
+    font-size: 3.6rem;
+  }
+
+  .grid {
+    column-gap: 4.8rem;
+    row-gap: 6.4rem;
+  }
+
+  .header {
+    padding: 2.4rem 0;
+  }
+
+  .hero {
+    gap: 4.8rem;
+  }
+
+  .main-nav-section {
+    gap: 3.2rem;
+  }
+
+  .overview-img-box:nth-child(4) {
+    grid-row: 3/4;
+  }
+
+  .feature-img-box:nth-child(2) {
+    grid-row: 1/2;
+  }
+
+  .feature-img-box:nth-child(6) {
+    grid-row: 5/6;
+  }
+
+  .feature-img-box:nth-child(10) {
+    grid-row: 9/10;
+  }
+
+  .supply-img {
+    width: 70%;
+  }
+
+  .feature-img {
+    width: 50%;
+  }
+
+  .about-author-img {
+    width: 40%;
+  }
+}
+
+@media (max-width: 60.625em) {
+
+  html {
+    font-size: 50%;
+  }
+
+  /* HERO */
+
+  .hero {
+    grid-template-columns: 1fr;
+    padding: 0 8rem;
+    gap: 6.4rem;
+  }
+
+  .hero-img {
+    width: 60%;
+  }
+
+  .hero-text-box {
+    text-align: center;
+  }
+
+  .hero-img-box {
+    display: flex;
+    justify-content: center;
+  }
+
+  .btn-container {
+    justify-content: center;
+  }
+
+  /* ABOUT THE FOUNDER */
+
+  .author-img {
+    width: 40%;
+  }
+
+  .author-text-box {
+    padding: 0 13rem;
+  }
+
+  /* OVERVIEW */
+
+  .overview-img {
+    width: 45%;
+  }
+
+  /* .overview-text-box {
+    padding: 0 13rem;
+  } */
+
+  /* FEATURES */
+
+  .grid--2--cols {
+    grid-template-columns: 1fr;
+  }
+
+  .feature-img {
+    height: 30rem;
+    width: 55%;
+  }
+
+  .feature-box {
+    padding: 0 26rem;
+  }
+
+  .feature-container {
+    padding: 4rem 3rem 4.5rem 3rem;
+  }
+
+  .section-features {
+    padding: 10rem 0 12rem 0;
+  }
+
+  /* ABOUT AUTHOR BOX */
+
+  .grid--2--cols {
+    grid-template-columns: 1fr;
+  }
+
+  .author-img {
+    width: 30%;
+  }
+
+  .author-img-box {
+    text-align: center;
+  }
+
+  /*  OVERVIEW */
+
+
+  .overview-box {
+    padding: 5rem 12rem;
+  }
+
+  .overview-img {
+    width: 60%;
+  }
+
+  /* DONATION */
+
+  .donation-img {
+    width: 40%;
+  }
+
+  .donation-box {
+    padding: 5rem 12rem;
+  }
+
+  .about-author-img {
+    width: 35%;
+  }
+
+  .gallery-img-box {
+    grid-row: 1/2;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 59em) {
+  .main-mobile-nav {
+    display: block;
+    z-index: 999;
+  }
+
+  .hero-img {
+    width: 80%;
+  }
+
+  .main-nav-section {
+    background-color: rgba(236, 242, 244, 50%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    transform: translateX(100%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5.6rem;
+
+    font-size: 3rem;
+
+    opacity: 0;
+    pointer-events: none;
+    visibility: none;
+    transition: all 0.5s ease-in;
+
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  }
+
+  .nav-open .main-nav-section {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0%);
+  }
+
+  .nav-open #close-outline {
+    display: block;
+  }
+
+  .nav-open #menu-outline {
+    display: none;
+  }
+
+  .main-nav-item,
+  .main-nav-btn {
+    font-size: 3.6rem;
+  }
+
+  .about-author-img {
+    width: 30%;
+  }
+}
+
+
+@media (max-width: 50em) {
+  html {
+    font-size: 43.625%;
+  }
+
+  .about-author-box {
+    gap: 5rem;
+  }
+
+  .about-author-text-box {
+    /* margin-top: 6rem; */
+    align-self: self-start;
+  }
+
+  .hero-img {
+    width: 80%;
+  }
+
+  .feature-box {
+    grid-template-columns: 1fr;
+    padding: 0 22rem;
+  }
+
+  .feature-container {
+    padding: 3.6rem 4rem;
+    align-self: center;
+  }
+
+  .grid--3--cols {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .about-author-img {
+    width: 30%;
+  }
+}
+
+@media (max-width: 36.25em) {
+  html {
+    font-size: 37.5%;
+  }
+
+  .donation-container {
+    grid-template-columns: none;
+    grid-template-rows: 1fr;
+  }
+
+  .donation-img {
+    width: 50%;
+  }
+
+  .donation-img-box {
+    text-align: center;
+  }
+}
+
+@media (max-width: 31.25em) {
+  html {
+    font-size: 31.25%;
+  }
+
+  .donation-img {
+    width: 35%
+  }
+
+  .feature-box {
+    grid-template-columns: 1fr;
+    padding: 0 10rem;
+  }
+
+  .feature-container {
+    padding: 4rem 2rem;
+    align-self: center;
+  }
+
+  .about-author-box {
+    gap: 0rem;
+  }
+
+  .author-text-box {
+    padding: 0 10rem;
+  }
+
+  .overview-box {
+    padding: 6 10rem;
+  }
+
+  .section-overview {
+    padding: 10rem 0;
+  }
+
+  .donation-box {
+    padding: 0 10rem;
+  }
+}
