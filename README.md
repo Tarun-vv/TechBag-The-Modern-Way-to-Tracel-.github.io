@@ -24,4 +24,7 @@ Being my first website, I poured a lot of love and time inside this website. As 
 
 I have a beautiful gallery in my brief overview section which when hovered zooms in in. This was made possible using the hover pseudo class and the transform: scale property
 
+Next, I have a beautiful section made up all the features I have in the bag. This section helps the user clearly understand the use cases of my bag which will encourage the user to donate.
+
+
 
